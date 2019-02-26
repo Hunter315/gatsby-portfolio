@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -234,7 +235,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 h2 {
@@ -376,6 +377,41 @@ dd {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+
+.rotate {
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  
+  float: left;
+  
+  }
+  .rotateNeg {
+
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+    
+    /* IE */
+    -ms-transform: rotate(90deg);
+    
+    /* Opera */
+    -o-transform: rotate(90deg);
+    
+    float: left;
+    
+    }
 p {
   margin-left: 0;
   margin-right: 0;
@@ -385,6 +421,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-size: 1.2rem;
 }
 figure {
   margin-left: 0;
@@ -620,3 +657,28 @@ pre tt:after {
     font-size: 100%;
   }
 }
+span {
+  
+  display: flex;
+  height: 400px;
+  flex-flow: column;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  line-height: 60px;
+  border-radius: 50%;
+  border-color: black;
+  border: 1px solid black;
+  background-color: transparent;
+  /* color: white; */
+  text-align: center;
+  font-size: 2em;
+}
+.bg-pattern{
+  background: radial-gradient(circle, #deeff5 0.75em, #d6ebf2 0.75em, #cde7f0 1.5em,#c5e3ed 1.5em, #c5e3ed 1.8em, #bddfeb 1.8em) 0 0, radial-gradient(circle, #c5e3ed 0.75em, #9bc2cf 0.75em, #bddfeb 1.5em, #bddfeb 1.5em, #add8e6 1.8em, #9bc2cf 1.8em) 3em 3em, radial-gradient(circle, rgba(179, 204, 162, 0.7) 0.375em, #9bc2cf 0.375em) 3em 0, radial-gradient(circle, rgba(204, 195, 148, 0.7) 0.3em, rgba(255, 255, 255, 0) 0.3em) 0 3em;
+  background-size: 6em 6em;
+  background-color: #e6f3f7;
+  /* background-repeat: repeat; */
+ 
+}
+
