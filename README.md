@@ -1,3 +1,4 @@
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -95,3 +96,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+<<<<<<< HEAD
+=======
+=======
+# gatsby-portfolio
+>>>>>>> f05c9bb87efbf7fedcd7a576edd2c8aade1b036a
+>>>>>>> 19540723b1a1e0c2528a0b3e05ecffe58195ed74
